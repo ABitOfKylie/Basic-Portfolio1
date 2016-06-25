@@ -1,0 +1,42 @@
+body{
+				background-color: #4aaaa5;
+				font-color: #777777;
+			}
+
+			#mainheader{
+				background-color:##08afa7 ;
+				border-color:#cccccc;
+				font-color:white;
+				font-family:"Georgia";
+				
+			}
+			#footer{
+				background-color:#666666;
+			}
+			.MainContent{
+				background-color: #ffffff;
+				border-color:#dddddd;
+			}
+			h1{
+				color:#08afa7 ;
+				font-family:"Georgia";
+			}
+
+			h2{
+				color:#08afa7 ;
+				font-family:"Georgia";
+				
+			}
+
+			h3{
+				color:#08afa7 ;
+				font-family:"Georgia";
+			}
+			h4{
+				bcolor:#08afa7 ;
+				font-family:"Georgia";
+			}
+			h6{
+				color:#08afa7 ;
+				font-family:"Georgia";
+			}

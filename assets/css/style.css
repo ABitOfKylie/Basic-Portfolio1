@@ -11,32 +11,33 @@ body {
 	line-height:150%;
 	margin:0;
 	padding:0;
-	width:100%;
+	width:960px;
 }
 .header {
 	background:#ffffff;
 	margin:auto 0;
 	width:100%;
 	height:85px;
-	border-bottom:2px #DDE1E6;
+	
 	
 }
-.nav {
-	
+#nav {
 	font-color:#9999a2;
-	font-size:8px;
-	padding:40px;
+	font-size:18px;
+	padding:0 px;
 	width:33%;
 	float:right;
-	display:inline;
-	border:purple solid;
+	height:90px;
+	margin-right:0;
+	border:yellow dotted;
 }
 
-
 .container{
-	background-image:url(textured_paper.png);
+	background-image:url("assets/images/cheap_diagonal_fabric.png");
 	width:1024px;
 	margin:0 auto;
+	border-top:4px #DDE1E6;
+	overflow:auto;
 	/*border-bottom:14px cadetblue;
 	clear:both;
 	overflow:auto*/
@@ -45,8 +46,13 @@ body {
 	float:left;
 	width:650px;
 	height:480px;
-	border:double black;
+	border:double yellow;
+	margin-top:35px;
 	margin-bottom:40px;
+	margin-left:45px;
+	padding:0px 20px 0px 20px;
+
+
 }
 
 #bio-image{
@@ -55,12 +61,14 @@ body {
 	width:200px;
 	height:200px;
 }	
-#connect{
+.connect{
 	float:left;
 	width:260px;
 	height:195px;
-	border:dotted black;
+	border:dotted yellow;
 	margin-left:40px;
+	margin-top:35px;
+
 }
 
 /*aside {
@@ -78,7 +86,7 @@ h1 {
 	padding:15px;
 	width:240px;
 	height:90px;
-	margin:0;
+	margin:auto 0;
 	margin-left:45px;
 	text-align:left;
 	float:left;
@@ -90,15 +98,19 @@ h2	{
 	padding-left:20px;
 	color:cadetblue;
 	background-color:white;
+	padding:0px 20px 20px 20px;
+	border-bottom:#eee solid 5px;
 	/*border-bottom:black solid 5px;
 	padding:30px 35px 40px 32px;*/
 }
 
 a{
 	color:#9999a2;
+	text-decoration: none;
 }
 
 p {	padding:5px;
+	text-align:justify;
 }
 
 footer{
@@ -109,7 +121,7 @@ footer{
 	font-size:12px;
 	margin:auto 0;
 	padding:40px;
-	width:100%;
+	width:1024px;
 	height:85px;
 
 }

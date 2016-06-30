@@ -12,12 +12,13 @@
 	<header id="header">
 		<div>
 			<div>
-				<h1>Kylie Soderblom</h1>
+				<h1 id="main-name"><strong> Kylie Soderblom </strong></h1>
 			</div>
 				<div id="nav">
-						<h3><a href="index.html"> About </a>
-						<a href="Portfolio.html"> | Portfolio | </a>
-						<a href="Contact.html">  Contact </a>
+						<h3>
+							<a href="index.html"> About </a>
+							<a href="Portfolio.html"> | Portfolio | </a>
+							<a href="Contact.html">  Contact </a>
 						</h3>
 
 				</div>
@@ -26,32 +27,48 @@
 	
 	<div class="container" style="background-image:url('assets/images/cheap_diagonal_fabric.png');">
 		<section id="contactform">
-			<h2>Contact</h2>
-			<form action="MAILTO:kyliecalif@gmail.com" method="post" enctype="url-encoded" style="text-align:left"> 
-				<div class="name_email">
-					<label>
-						Name: <br>
-						<input type="text" name="name" value="John Smith"><br>
-					</label>
-					<label>
-					Email: <br>
-					<input type="text" name="mail" value="example@gmail">
-					<br>
-					</label>
-				</div>
-				Message: <br>
-				<input type="text" name="message" value="your comment" size="50" <br><br>
-				<input type="submit" value="Submit">
+			<h1>Contact</h1>
+				<form action="MAILTO:kyliecalif@gmail.com" method="post" enctype="url-encoded" style="text-align:left"> 
+					<div class="name_email">
+						<label>
+							Name: 	<br>
+							<input type="text" name="name" value="John Smith">
+									<br>
+						</label>
+									<br>
+						<label>
+							Email: 	<br>
+							<input  type="text" name="mail" value="example@gmail">
+									<br>
+						</label>
 				
-			</form>
+						<label>
+							Message: <br>
+							<input id="textarea" type="text" name="message" value="your comment">
+									<br>
+									<br>
+						</label>
+									<br>	
+						<label>
+							<input type="submit" value="Submit">	
+						</label>
+					</div>
+				</form>
 		</section>
+	</div>
+	
+			
+		
 
 	<!-- you need a </div> somewhere-->
 		<section class="connect">
 			<h2>Connect With Me</h2>
-			<a href="https://www.linkedin.com/"><img src="assets/images/icon_linkedin.svg" alt="Linkedin Icon" style="width:60px;height:60px;"/><a> 
-			<a href="https://www.facebook.com/"><img src="assets/images/icon_facebook.svg" alt="Facebook Icon" style="width:60px;height:60px;"/><a> 
-			<a href=https://www.skype.com/en/><img src="assets/images/icon_skype.svg" alt="Skype Icon" style="width:60px;height:60px;"/><a> 
+			<br>
+				<div class="icon">
+					<a href="https://github.com/ABitOfKylie"><img src="assets/images/githubicon.png" alt="GitHub Icon" height="60" width="60"/></a>
+					<a href="https://www.linkedin.com/"><img src="assets/images/linkedinicon.png" alt="Linkedin Icon" height="60" width="60"/></a> 
+					<a href="https://www.stackoverflow.com"><img src="assets/images/stackoverflowicon.png" alt="StackOverflow Icon" height="60" width="60"/></a> 
+				</div>
 		</section>
 	</div>
 

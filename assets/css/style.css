@@ -82,7 +82,7 @@ body {
 	float:left;
 	width:272px;
 	height:204px;
-	margin-top:40px;
+	margin-top:43px;
 	margin-bottom:20px;
 	background-color:#ffffff;
 	border: 2px #dddddd;
@@ -219,13 +219,15 @@ h2	{
 }
 
 h3	{
+	/* this could have been id/classed - but currently only one h3 in use- 
+	and that is the nav bar About Profile Contact */
 	font-family:"Georgia, Times, Times_New_Roman, serif";
-	font-size:20px;
-	/*padding:0px 0px 17px 20px;*/
-	border-bottom:#eee solid 5px;
-	margin-right:123;
-	text-align: center
-	width:100%
+	font-size:26px;
+	font-weight:lighter;
+	word-spacing:30px;
+	margin-right:123px;
+	text-align: center;
+	width:100%;
 }
 a{
 	color:#9999a2;

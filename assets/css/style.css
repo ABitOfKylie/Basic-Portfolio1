@@ -44,7 +44,7 @@ body {
 
 #nav {
 	
-	padding:26px 142px 22px 22px;;
+	padding:26px 167px 22px 22px;;
 	float:right;
 	height:90px;
 	
@@ -222,11 +222,10 @@ h3	{
 	/* this could have been id/classed - but currently only one h3 in use- 
 	and that is the nav bar About Profile Contact */
 	font-family:"Georgia, Times, Times_New_Roman, serif";
-	font-size:26px;
+	font-size:22px;
 	font-weight:lighter;
-	word-spacing:30px;
-	margin-right:123px;
-	text-align: center;
+	word-spacing:5px;
+	margin-right:125px;
 	width:100%;
 }
 a{

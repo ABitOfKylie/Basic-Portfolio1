@@ -4,7 +4,7 @@
 }
 
 body {
-	/* same for all three pages*/
+	
 	font-family:"Georgia, Times, Times_New_Roman, serif";
 	color:#777777;
 	font-size:18px;
@@ -14,27 +14,37 @@ body {
 	width:100%;
 }
 
+/*#header {
+	background:#ffffff;
+	border-color:#cccccc;
+	margin-left:auto;
+	margin-right:auto 0;
+	width:100%;
+	height:85px;
+	position:absolute;
+	border-bottom:5px purple;
+
+	
+}*/
+
 #main-name{
-		/* same for all three pages but the appearance/size varies*/
 	font-family:"Georgia, Times, Times_New_Roman, serif";
 	background-color:#4aaaa5;
 	color: white;
 	font-size:36px;
-	padding:5px 20px 40px 30px;
+	padding:20px 20px 20px 37px;
 	width:240px;
 	height:90px;
 	margin:auto 0;
 	margin-left:147px;
 	text-align:left;
-	line-height:110%;
 	float:left;
 	border:1px #ffffff;
 }
 
 
 #nav {
-	/* same for all three pages but clearly larger on Portfolio page*/
-	padding:26px 82px 22px 22px;;
+	padding:26px 167px 22px 22px;;
 	float:right;
 	height:90px;
 }
@@ -70,10 +80,11 @@ body {
 .connect{
 	float:left;
 	width:272px;
-	margin:43px 0 20px 20px;
-	padding-bottom:30px;
+	height:20
+	margin-top:43px;
+	margin-bottom:20px;
 	background-color:#ffffff;
-	border: 5px #dddddd;
+	border: 2px #dddddd;
 }
 /*below is the left element (Contact Form Page 2) in container/main content*/
 #contactform {
@@ -111,7 +122,6 @@ body {
 	width:590px;
 	border-color:#ccc;
 	height:200px;
-	font-size:18px;
 }
 .submit {
 	width:115px;
@@ -133,9 +143,7 @@ body {
 	color:#ccc;
 }
 
-/* The following classes/ids apply to Portfolio page
-    changed left element name(from main-bio) to main3*/
-#main3 { 
+#main3 { /* changed left element name(from main-bio) to main3*/
 	float:left;
 	width:650px;
 	margin:43px 45px 45px 147px;
@@ -145,6 +153,8 @@ body {
 }
 
 div .item{
+	/*padding:30px 30px 58px 30px;
+	float:left;*/
 	width:275px;
 	height:206px;
 	margin:40px 20px 0px 20px;

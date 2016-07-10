@@ -146,10 +146,12 @@ div.icon:hover{
 #main3 { 
 	float:left;
 	width:650px;
-	margin:43px 45px 45px 147px;
-	padding-left:11px;
+	/*margin:43px 45px 45px 147px;
+	padding-left:11px;*/
+	margin-left:3%;
 	background-color:#ffffff;
 	border: 6px #dddddd;
+	padding:9px;
 }
 
 div .item{
@@ -178,6 +180,18 @@ div .desc{
 
 /* h1 header: About Me*/
 #aboutheader{
+	font-family:"Georgia, Times, Times_New_Roman, serif";
+	color: #4aaaa5;
+	font-size:34px;
+	max-width:100%;
+	font-weight: bolder;
+	padding:35px 0 35px 0px;
+	border-bottom:#eee solid 5px;
+	text-align:left;
+	margin:0 26px;
+}
+/*still messing with headers -- would like to consolidate but.. */
+#portheader{
 	font-family:"Georgia, Times, Times_New_Roman, serif";
 	color: #4aaaa5;
 	font-size:34px;

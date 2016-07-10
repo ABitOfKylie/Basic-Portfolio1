@@ -23,8 +23,9 @@ body {
 	padding:5px 20px 40px 30px;
 	width:240px;
 	height:90px;
-	margin:auto 0;
-	margin-left:147px;
+	/*margin:auto 0;
+	margin-left:147px;*/
+	margin-left:3%;
 	text-align:left;
 	line-height:110%;
 	float:left;
@@ -34,9 +35,10 @@ body {
 
 #nav {
 	/* same for all three pages but clearly larger on Portfolio page*/
-	padding:26px 82px 22px 22px;;
 	float:right;
 	height:90px;
+	padding:25px 0;
+	margin-right:14%;
 }
 
 
@@ -48,14 +50,17 @@ body {
 	overflow:auto;
 	text-align:left;
 	border-top: 2px #ccc;
+	padding:40px 0;
+
 	/* can't seem to get a border line between header and container */
 }	
 #main-bio{
 	/*this is the left element (applies to p 1-3) in container/main content*/
 	float:left;
 	width:650px;
-	margin:43px 45px 45px 147px;
-	padding:0px 30px 0px 30px;
+	margin-left: 3%;
+	/*margin:43px 45px 45px 147px;
+	padding:0px 30px 0px 30px;*/
 	background-color:#ffffff;
 	border: 1px #dddddd;
 }	
@@ -68,19 +73,22 @@ body {
 }
 /*below is the right element (Connect with me, applies to p 1-3) in container/main content*/
 .connect{
-	float:left;
-	width:272px;
-	margin:43px 0 20px 20px;
+	float:right;
+	max-width:270px;
+	margin-right:14%;
 	padding-bottom:30px;
 	background-color:#ffffff;
 	border: 5px #dddddd;
+}
+div.icon:hover{
+	border:5px solid purple;
 }
 /*below is the left element (Contact Form Page 2) in container/main content*/
 #contactform {
 	float:left;
 	width:650px;
+	margin-left:3%;
 	border:10px purple;
-	margin:40px 43px 41px 147px;
 	padding-left:30px;
 	padding-right:30px;
 	padding-bottom:30px;
@@ -168,44 +176,62 @@ div .desc{
 	width:100%;
 }
 
-h1 {
+/* h1 header: About Me*/
+#aboutheader{
 	font-family:"Georgia, Times, Times_New_Roman, serif";
 	color: #4aaaa5;
-	font-size:36px;
-	width:100%;
-	margin:auto 0;
+	font-size:34px;
+	max-width:100%;
 	font-weight: bolder;
-	padding:36px 90px 36px 0px;
+	padding:35px 0 35px 0px;
 	border-bottom:#eee solid 5px;
 	text-align:left;
+	margin:0 26px;
 }
 
-
-h2	{
-	font-family:"Georgia, Times, Times_New_Roman, serif";font-size:24px;
+/*Contactform (h1) header*/
+#contactheader{
+	font-family:"Georgia, Times, Times_New_Roman, serif";
+	color: #4aaaa5;
+	font-size:34px;
+	max-width:100%;
+	font-weight: bolder;
+	padding:35px 0 35px 0px;
+	border-bottom:#eee solid 5px;
+	text-align:left;
+	margin:0;
+}
+/* h2 header: Connect with Me*/
+h2 {
+	font-family:"Georgia, Times, Times_New_Roman, serif";
+	font-size:23px;
+	font-weight:bold;
 	color:#4aaaa5;
 	background-color:white;
-	padding:25px 33px 20px 30px;
-	border-bottom:#eee solid 5px;
-	text-align:center;
+	margin:0 26px;
+	padding:25px 20px 20px 20px;
+	border-bottom:#eee solid 2px;
+	text-align:left;
+	max-width: 100%;
 }
 
+/* h3 header: Nav About,Portfolio,Connect*/
 h3	{
 	/* this could have been id/classed - but currently only one h3 in use- 
 	and that is the nav bar About Profile Contact */
 	font-family:"Georgia, Times, Times_New_Roman, serif";
 	font-size:22px;
 	font-weight:lighter;
-	word-spacing:5px;
-	margin-right:125px;
-	width:100%;
+	word-spacing:2px;
+	max-width:100%;
 }
 
 a {	color:#9999a2;
 	text-decoration: none;
+	margin:4px;
 }
 
-p {	padding:5px;
+p {	padding:20px 30px 0 30px;
 	text-align:justify;
 }
 
